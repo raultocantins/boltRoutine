@@ -7,7 +7,7 @@ const updateEvents = async () => {
                 "isRanking": false
             })
         })
-        console.log(`events updated`);
+        console.log(`events updated on ${new Date().toLocaleDateString()}`);
     } catch (e) {
         console.log(e);
     }
